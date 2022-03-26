@@ -1,0 +1,12 @@
+[liveuser@localhost Downloads]$ gpg --verify SHA256SUMS.sign SHA256SUMS
+gpg: Signature made Sat 18 Dec 2021 08:46:02 PM UTC using RSA key ID 6294BE9B
+gpg: Good signature from "Debian CD signing key <debian-cd@lists.debian.org>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: DF9B 9C49 EAA9 2984 3258  9D76 DA87 E80D 6294 BE9B
+[liveuser@localhost Downloads]$ gpg --verify SHA512SUMS.sign SHA512SUMS
+gpg: Signature made Sat 18 Dec 2021 08:46:03 PM UTC using RSA key ID 6294BE9B
+gpg: Good signature from "Debian CD signing key <debian-cd@lists.debian.org>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: DF9B 9C49 EAA9 2984 3258  9D76 DA87 E80D 6294 BE9B
