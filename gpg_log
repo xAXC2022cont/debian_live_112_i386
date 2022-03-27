@@ -1,11 +1,19 @@
+[liveuser@localhost Downloads]$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 6294BE9B
+gpg: keyring `/home/liveuser/.gnupg/secring.gpg' created
+gpg: requesting key 6294BE9B from hkps server keyserver.ubuntu.com
+gpg: /home/liveuser/.gnupg/trustdb.gpg: trustdb created
+gpg: key 6294BE9B: public key "Debian CD signing key <debian-cd@lists.debian.org>" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
 [liveuser@localhost Downloads]$ gpg --verify SHA256SUMS.sign SHA256SUMS
-gpg: Signature made Sat 18 Dec 2021 08:46:02 PM UTC using RSA key ID 6294BE9B
+gpg: Signature made Sat 26 Mar 2022 09:23:12 PM UTC using RSA key ID 6294BE9B
 gpg: Good signature from "Debian CD signing key <debian-cd@lists.debian.org>"
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: DF9B 9C49 EAA9 2984 3258  9D76 DA87 E80D 6294 BE9B
 [liveuser@localhost Downloads]$ gpg --verify SHA512SUMS.sign SHA512SUMS
-gpg: Signature made Sat 18 Dec 2021 08:46:03 PM UTC using RSA key ID 6294BE9B
+gpg: Signature made Sat 26 Mar 2022 09:23:13 PM UTC using RSA key ID 6294BE9B
 gpg: Good signature from "Debian CD signing key <debian-cd@lists.debian.org>"
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
